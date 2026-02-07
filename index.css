@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap');
+
+/* link color #F54E00 */
+
+:root {
+  --primary-bg-color: #14120B;
+  --primary-text-color: #EDECEC;
+  --anchor-color: #F54E00;
+  --semi-opaque-text-color: #8E8E8E;
+  --recent-highlight-section-bg-color: #14120B;
+  --recent-highlight-card-bg-color: #14120B;
+  --final-cta-bg-color: #14120B;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Carrois Gothic', sans-serif;
+  background-color: #14120B;
+  color: #EDECEC;
+}
+
+.section {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  font-size: 14px;
+  height: 52px;
+}
+
+nav button {
+  line-height: 14px;
+}
+
+nav ul {
+  list-style: none;
+  line-height: 21px;
+  display: flex;
+}
+
+nav li {
+  padding: 5px 15px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: none;
+  box-shadow: inset 0 0 0 0.3px #EDECEC;
+  border-radius: 2.68435e+07px;
+  cursor: pointer;
+  color: #EDECEC;
+  outline: #EDECEC;
+  font-size: 14px;
+}
+
+.dark {
+  background-color: #14120B;
+}
+
+.light {
+  background-color: #EDECEC;
+  color: #14120B;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+
